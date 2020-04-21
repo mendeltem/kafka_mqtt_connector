@@ -8,13 +8,9 @@ Created on Thu Mar 26 16:52:46 2020
 
 import subprocess
 import time
+import os
 
-#
-#subprocess.Popen(['python', 'start_kafkaserver.py'])
-#
-#subprocess.Popen(['python', 'start_kafkazookeeper.py'])
-#
-import system
+os.chdir("simulation")
 
 subprocess.Popen(['python', 'bridge1.py'])
 subprocess.Popen(['python', 'bridge2.py'])
