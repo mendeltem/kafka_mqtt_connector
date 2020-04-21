@@ -40,8 +40,8 @@ https://kafka.apache.org/quickstart
 sudo mongod
 
 
-## In confing.ini werden die IP Adressen mit Port von den Servern eingestellt.
-
+## Konfiguration in config.ini
+In confing.ini werden die IP Adressen mit Port von den Servern eingestellt.
 
 ## Starte die Simulation
 start_simulation.py
