@@ -43,6 +43,19 @@ sudo mongod
 ## Konfiguration in config.ini
 In confing.ini werden die IP Adressen mit Port von den Servern eingestellt.
 
+Hier werden die zwei Zeitintervalle aufgenommen. In Sekunden. 
+Alle 60 Sekunden und alle 300 Sekunden.
+interval_tm_sec_list    =  [60,300]
+
+
+Der Topicname für die Konfiguration
+config_topic            = kafka/config/#
+
+Datenbankname
+db_name                 = kafka_database
+
+
+
 ## Starte die Simulation
 start_simulation.py
 
