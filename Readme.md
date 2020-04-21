@@ -45,20 +45,28 @@ In confing.ini werden die IP Adressen mit Port von den Servern eingestellt.
 
 Hier werden die zwei Zeitintervalle aufgenommen. In Sekunden. 
 Alle 60 Sekunden und alle 300 Sekunden.
-    interval_tm_sec_list    =  [60,300]
-
+```sh
+interval_tm_sec_list    =  [60,300]
+```
 
 Der Topicname für die Konfiguration
-    config_topic            = kafka/config/#
+```sh
+config_topic            = kafka/config/#
+```
+
+
 
 Datenbankname
-    db_name                 = kafka_database
-
+```sh
+db_name                 = kafka_database
+```
 
 
 ## Starte die Simulation
-    python start_simulation.py
 
+```sh
+    python start_simulation.py
+```
 
 
 
