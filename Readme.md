@@ -1,31 +1,32 @@
 
 
+# Kafka Konnektor
+
 
 ![Architekturbild](architekturbild.png)
 
 
-# Installation
+##Installation
 
-
-MQTT Broker
+### MQTT Broker
 https://mosquitto.org/
 
-MQTT Python
+### MQTT Python
 https://pypi.org/project/paho-mqtt/
 
-Kafka Python
+### Kafka Python
 https://kafka-python.readthedocs.io/en/master/install.html
 
-MongoDB
+### MongoDB
 https://docs.mongodb.com/manual/installation/
 
-## Starte die Server
+### Starte die Server
 
-#start mqtt broker
+###start mqtt broker
 sudo service mosquitto start 
 sudo service  mosquitto stop
 
-#start mongodb
+###start mongodb
 sudo mongod
 
 
