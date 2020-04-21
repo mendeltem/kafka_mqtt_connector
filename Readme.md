@@ -23,7 +23,6 @@ https://docs.mongodb.com/manual/installation/
 ### Flask Webserver
 https://pypi.org/project/Flask/
 
-
 ## Starte die Server
 
 ### Start den MQTT Broker
@@ -32,14 +31,11 @@ sudo service mosquitto start
 ### Starte den MongoDB
 sudo mongod
 
-
 ### Starte Kafka Zookeeper
-### In Ordner simulation/
-python start_kafkazookeeper.py 
+bin/zookeeper-server-start.sh config/zookeeper.properties
 
 ### Starte Kafka Broker
-### In Ordner simulation/
-python start_kafkaserver.py 
+bin/kafka-server-start.sh config/server.properties
 
 ## Starte die Simulation
 ### In Ordner simulation/
