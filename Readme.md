@@ -19,8 +19,7 @@ https://kafka-python.readthedocs.io/en/master/install.html
 MongoDB
 https://docs.mongodb.com/manual/installation/
 
-
-
+## Starte die Server
 
 #start mqtt broker
 sudo service mosquitto start 
