@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 15 19:13:37 2020
+
+@author: panda
+"""
+
+        {%for i in range(0, lenght)%}        
+        
+            var myImageElement = document.getElementById('{{liste[i]}}');
+            myImageElement.src = '/{{liste[i]}}.png?rand=' + Math.random();
+            
+            setInterval(function() {
+                var myImageElement = document.getElementById('{{liste[i]}}');             
+                myImageElement.src = '/{{liste[i]}}.png?rand=' + Math.random();
+            }, 15000);
+        
+       {%endfor%}    
+        	value = document.getElementsByClassName("plot")[0].src
+        	
+        	if(value){
+
+            var myImageElement = document.getElementById('building1_room2-CelsiusScale-time_1');
+            myImageElement.src = 'building1_room2-CelsiusScale-time_1.png?rand=' + Math.random();
+            
+            setInterval(function() {
+                var myImageElement = document.getElementById('building1_room2-CelsiusScale-time_1');             
+                myImageElement.src = '/building1_room2-CelsiusScale-time_1.png?rand=' + Math.random();
+                
+                console.log('mendel')
+            }, 1);
+
+            }

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+
+
+{% block content %}
+<img src="/plot2.png" alt="my plot">
+{% endblock content %}
+
+
+
+<script>
+
+var myImageElement = document.getElementById('{{liste[i]}}');
+myImageElement.src = '/{{liste[i]}}.png?rand=' + Math.random();
+
+setInterval(function() {
+    var myImageElement = document.getElementById('{{liste[i]}}');             
+    myImageElement.src = '/{{liste[i]}}.png?rand=' + Math.random();
+}, 15000);
+ 
+ 
+</script>
