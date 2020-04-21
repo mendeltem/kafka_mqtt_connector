@@ -6,7 +6,7 @@
 ![Architekturbild](architekturbild.png)
 
 
-##Installation
+## Installation
 
 ### MQTT Broker
 https://mosquitto.org/
@@ -20,27 +20,25 @@ https://kafka-python.readthedocs.io/en/master/install.html
 ### MongoDB
 https://docs.mongodb.com/manual/installation/
 
-### Starte die Server
+## Starte die Server
 
-###start mqtt broker
+### start mqtt broker
 sudo service mosquitto start 
 sudo service  mosquitto stop
 
-###start mongodb
+### start mongodb
 sudo mongod
 
 
-
-
+### In Ordner
 simulation/
-
-#start zookeeper
+### start zookeeper
 python start_kafkazookeeper.py 
 
-#start kafka broker
+### start kafka broker
 python start_kafkaserver.py 
 
-#start simulation
+#starte die Simulation
 python start_sim.py 
 
 
