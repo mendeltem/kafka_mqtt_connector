@@ -67,9 +67,3 @@ start_simulation.py
 
 
 
-
-
-
-
-
-
