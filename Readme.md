@@ -20,25 +20,29 @@ https://kafka-python.readthedocs.io/en/master/install.html
 ### MongoDB
 https://docs.mongodb.com/manual/installation/
 
+### Flask Webserver
+https://pypi.org/project/Flask/
+
+
 ## Starte die Server
 
-### start mqtt broker
+### Start den MQTT Broker
 sudo service mosquitto start 
-sudo service  mosquitto stop
 
-### start mongodb
+### Starte den MongoDB
 sudo mongod
 
 
-### In Ordner
-simulation/
-### start zookeeper
+### Starte Kafka Zookeeper
+### In Ordner simulation/
 python start_kafkazookeeper.py 
 
-### start kafka broker
+### Starte Kafka Broker
+### In Ordner simulation/
 python start_kafkaserver.py 
 
-#starte die Simulation
+## Starte die Simulation
+### In Ordner simulation/
 python start_sim.py 
 
 
